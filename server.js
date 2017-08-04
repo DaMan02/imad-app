@@ -63,7 +63,7 @@ var articles={
             </p>`
 }
 };
-function create_Template(data){
+function createTemplate(data){
     var title=data.title;
     var heading=data.heading;
     var date=data.date;
@@ -103,7 +103,7 @@ app.get('/:articleName',function (req,res){
     //articleName== article-one
     //articles[articleName]=={}content object for article one
     var articleName=req.params.articlaName;
-    res.send(create_Template(articles[articleName]));
+    res.send(createTemplate(articles[articleName]));
 });
 
 
