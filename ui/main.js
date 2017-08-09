@@ -1,4 +1,4 @@
-var myImg=getElementById('myImg');
+var myImg=document.getElementById('myImg');
 var w=-10;
 myImg.onclick=function(){
     w=w+2;
