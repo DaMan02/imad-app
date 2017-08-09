@@ -104,7 +104,7 @@ app.get('/', function (req, res) {
 var counter=0;
 app.get('/counter', function (req, res) {
     counter=counter+1;
-  res.send("No. of times visited : "+counter.toString());
+  res.send("Counter : "+counter.toString());
 });
 app.get('/:articleName',function (req,res){
     //articleName== article-one
