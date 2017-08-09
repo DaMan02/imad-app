@@ -1,7 +1,10 @@
 var myImg=document.getElementById('myImg');
 var w=0;
 myImg.onclick=function(){
-    w=w+2;
-   myImg.width=w+'px';
-   myImg.height=w+'px';
+   
+if(myImg && myImg.style) {
+    yourImg.style.height = w+'px';
+    yourImg.style.width = w+'px';
+}
+
 };
