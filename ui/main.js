@@ -1,6 +1,6 @@
 var myImg=document.getElementById('myImg');
-var w=-10;
+var w=0;
 myImg.onclick=function(){
-    w=w+2;
+    w=w+5;
    myImg.style.width=w+'px';
 };
